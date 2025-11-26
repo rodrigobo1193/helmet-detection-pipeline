@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled files
+*.so
+*.dll
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Generated figures and temp outputs
+runs/
+output/
+figures/generated/
+temp/
+
+# Data directories (avoid uploading large datasets)
+data/
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Model weights
+*.pt
+*.onnx
+*.weights
+*.pth
+
+# Logs
+*.log
+
+# Editor and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
